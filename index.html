@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+        <h1>Coding Quiz</h1>
+    </header>
+
+    <!-- Landing Page -->
+    <section id="landing" class="view">
+        <h2>Instructions</h2>
+        <p class="margin">This is a short multiple-choice quiz to test a subject's knowledge of coding TLAs. You will have 2 minutes to answer all questions. <br>Incorrect answers will result in a penalty of 5 seconds. The quiz is complete when all questions are answered, or when time has run out.</p>
+        <button id="begin">Start the Quiz</button>
+    </section>
+
+    <!-- quiz page -->
+    <section id="quiz" class="view">
+        <h2 class="margin"> Quiz In Progress</h2>
+        <div id="question-card">
+            <h3 id="question-text"></h3>
+            <div id="answers">
+                <button class="answer"></button>
+                <button class="answer"></button>
+                <button class="answer"></button>
+                <button class="answer"></button>
+            </div>
+        </div>
+        <div class="score">
+            <h3> Score </h3>
+            <h3 id="timer"></h3>
+        </div>
+    </section>
+
+    <!-- game over page -->
+    <section id="gameover" class="view">
+        <h2 class="margin">Time's Up!</h2>
+        <button class="redux">Try Again?</button>
+    </section>
+
+    <!-- quiz complete page -->
+    <section id="complete" class="view">
+        <h2> Quiz Complete!</h2>
+        <h3> Save your name to the Scoreboard!</h3>
+        <input class="margin" type="text" placeholder="Enter your name!" id="hiscore">
+        <button id="record">Enter</button>
+    </section>
+
+    <!-- scoreboard page -->
+    <section id="scoreboard" class="view">
+        <h2> Hi-Scores</h2>
+        <button id="redux">Play Again</button>
+        <ol id="rankings"></ol>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+  </body>

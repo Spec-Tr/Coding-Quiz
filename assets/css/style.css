@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color:aliceblue;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+header{
+    display:flex;
+    justify-content:center;
+    background-color: darkblue;
+    color:aliceblue;
+    min-width: 100vw;
+    border-radius: 5px;
+}
+.view{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.margin {
+    margin: 4%;
+}
+#landing-pg{
+    display: ;
+}
