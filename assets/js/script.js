@@ -45,6 +45,11 @@ function startQuiz() {
     timeRemaining = 120;
     clearInterval(timeInterval);
 
+    // Hide landing page & Scoreboard
+    hideElement(landingPage);
+    hideElement(scoreboardPage);
+
+
     // Display quiz page
     showElement(quizPage);
     
@@ -73,7 +78,7 @@ function display(index) {
 // Function to check the selected answer
 function checkAns() {
     var userSelect = this.textContent;
-    ques = quiz[whichQuestion];
+    var ques = quiz[whichQuestion];
     
     if (userSelect === ques.correct) {
         whichQuestion++;

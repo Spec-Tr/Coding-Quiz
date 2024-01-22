@@ -25,3 +25,9 @@ header{
 .margin {
     margin: 4%;
 }
+#quiz,
+#gameover,
+#complete,
+#scoreboard {
+    display: none;
+}
