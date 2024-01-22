@@ -4,7 +4,7 @@
 
 ## Description
 
-A brief, timed quiz to test users on the meaning of some basic coding-related acronyms, with a leaderboard feature to record winner names and scores locally. 
+A brief, timed quiz to test users on the meaning of some basic coding-related acronyms, with a leaderboard feature to record winner names and scores locally. Follow the instructions found upon page load to play.
 
 ## Link to Deployed Website
 
@@ -22,7 +22,8 @@ https://spec-tr.github.io/Coding-Quiz/
 Information and documentation used in the creation of this app, but external to the EdX UofT Full-Stack Software Development Bootcamp including syntaxes, best practises and instructional examples for usage came from the following sources:
 - https://gomakethings.com/how-i-structure-my-javascript-projects-in-2022/
 - https://www.w3schools.com/js/js_htmldom_eventlistener.asp
-- 
+- https://www.w3schools.com/js/js_jquery_selectors.asp
+- https://www.w3schools.com/jsref/met_win_setinterval.asp
 
 ## License
 
